@@ -7,4 +7,4 @@ jdk: oraclejdk8
 
 script:
   - cd backend
-  - ./gradlew build --scan -s
+  - mvn test
