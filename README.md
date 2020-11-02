@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/57112653/97929276-89fee900-1d47-11eb-8f4e-6f2c72069c53.png)
+![image](https://user-images.githubusercontent.com/57112653/97929313-a4d15d80-1d47-11eb-9dfa-43c36886a84b.png)
+
 # AgileTasks
 
 ### MVP:
