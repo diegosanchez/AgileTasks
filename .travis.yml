@@ -1,6 +1,11 @@
   
 language: java
+install: skip
+
+os: windows
+dist: trusty
+jdk: oraclejdk8
+
 script:
   - cd backend
-  - gradle test
-  - bash <(curl -s https://codecov.io/bash)
+  - ./gradlew build --scan -s
