@@ -5,5 +5,4 @@ install: skip
 dist: trusty
 jdk: oraclejdk8
 
-script:
-  - mvn test
+script: ./gradlew check --info --stacktrace --console=plain --max-workers=1 --no-daemon --build-cache -Dkotlin.colors.enabled=false
