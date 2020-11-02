@@ -1,5 +1,5 @@
   
 language: java
 script:
-  - mvn -B test
+  - ./gradlew test
   - bash <(curl -s https://codecov.io/bash)
