@@ -1,7 +1,9 @@
 language: java
 before_install:
+  - cd backend
   - chmod +x gradlew
   - chmod +x gradle/wrapper/gradle-wrapper.jar
+  - gradle wrapper --gradle-version 6.8-20201101230034+0000
 script:
   - cd backend
   - ./gradlew test build
