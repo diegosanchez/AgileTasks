@@ -6,4 +6,5 @@ before_install:
   - gradle wrapper --gradle-version 6.8-20201101230034+0000
 script:
   - cd backend
+  - gradle wrapper --gradle-version 6.8-20201101230034+0000
   - ./gradlew test build
