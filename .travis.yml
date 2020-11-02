@@ -1,5 +1,6 @@
   
 language: java
 script:
+  - cd backend
   - gradle test
   - bash <(curl -s https://codecov.io/bash)
