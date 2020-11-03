@@ -3,3 +3,4 @@ script:
   - cd backend
   - gradle test build
   - bash <(curl -s https://codecov.io/bash)
+
